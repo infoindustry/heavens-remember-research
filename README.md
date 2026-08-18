@@ -65,7 +65,7 @@ These are stated plainly because a DOI freezes a citable record.
 2. **`generatedAt` makes the checksums run-specific.** `data/research-alignments.json` embeds a generation timestamp, so re-running the pipeline produces a different SHA-256 even when every computed value is identical. The recorded checksums identify the specific archived artifact, not a reproducible hash of the computation.
 3. **The frozen corpus carries a repeated provenance string.** `source` in `data/research-alignments.json` repeats "proper names classified from the HYG proper field" three times, because enrichment was run three times over the same file before the script was made idempotent. The repetition is cosmetic and affects no computed value; it is left in place so the archived file still matches the SHA-256 the paper documents.
 4. **The `H1/H2/R-S/X` codes are not yet assigned row by row.** `paper/constellation-antiquity-register-v1.0.md` documents three historical strata over the 56 entries but does not yet carry the v1.4 codes.
-5. **Attribution is collective.** The work is published as "Heavens Remember Editorial Board". Whether named individuals with ORCIDs replace that form is an open decision.
+5. **Affiliation is not declared.** The work is credited to Alex K (ORCID [0009-0004-8829-4273](https://orcid.org/0009-0004-8829-4273)) with the Heavens Remember Editorial Board as second creator. No institutional affiliation is claimed.
 
 ## Licences
 
@@ -83,6 +83,6 @@ The data layer is CC BY-SA because it derives from HYG Database 4.1 and Stellari
 
 Cite the concept DOI to always point at the latest version:
 
-> Heavens Remember Editorial Board (2026). *Heavens Remember: Restoring the Celestial Sermon through Constellation Topography and the Great-Circle Method*. Zenodo. https://doi.org/10.5281/zenodo.22003724
+> Alex K, & Heavens Remember Editorial Board (2026). *Heavens Remember: Restoring the Celestial Sermon through Constellation Topography and the Great-Circle Method*. Zenodo. https://doi.org/10.5281/zenodo.22003724
 
 To pin the exact release you used, cite its version DOI instead — `10.5281/zenodo.22003725` for v1.4. Machine-readable metadata is in `CITATION.cff`.

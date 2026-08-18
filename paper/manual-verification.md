@@ -4,7 +4,7 @@ This register is part of the publication gate. A checked box means that a human 
 
 | ID | Claim or decision | Current evidence | Required human action | Status |
 | --- | --- | --- | --- | --- |
-| A01 | Public author name and order | Published under the collective attribution "Heavens Remember Editorial Board", matching the site-wide editorial identity in `src/data/research.ts` | Decide later whether a personal name, author order, affiliation, and ORCID replace the collective form | DECIDED |
+| A01 | Public author name and order | Alex K, ORCID `0009-0004-8829-4273`, as first creator, with "Heavens Remember Editorial Board" as second | Keep the ORCID published name in step with the citation string; add an affiliation if one is ever declared | DECIDED |
 | A02 | Author biography | A board description is carried in the metadata block of all four paper files | Revise if the attribution changes to named individuals | DECIDED |
 | A03 | First publication date | 2026-08-19, the date the paper went live at `/methodology/paper` | Keep in step with `date-released` in `CITATION.cff` | DECIDED |
 | A04 | DOI | Deposited at Zenodo on 2026-08-19. Concept DOI `10.5281/zenodo.22003724` (all versions), version DOI `10.5281/zenodo.22003725` (v1.4). Minted automatically from the GitHub release of `infoindustry/heavens-remember-research` | Add the new version DOI to both papers and `CITATION.cff` on every subsequent release | DECIDED |

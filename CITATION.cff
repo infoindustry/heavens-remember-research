@@ -7,6 +7,9 @@ version: "1.4"
 date-released: 2026-08-19
 doi: "10.5281/zenodo.22003724"
 authors:
+  - given-names: "Alex"
+    family-names: "K"
+    orcid: "https://orcid.org/0009-0004-8829-4273"
   - name: "Heavens Remember Editorial Board"
     website: "https://www.heavensremember.top/en/methodology"
 url: "https://www.heavensremember.top/en/methodology/paper"

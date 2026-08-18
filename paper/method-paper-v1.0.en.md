@@ -1,7 +1,7 @@
 # Heavens Remember: A Great-Circle Method for Discovering Biblical Narrative Chains on the Celestial Sphere
 
-**Author:** Heavens Remember Editorial Board  
-**Author contributions (CRediT):** conceptualization, methodology, software, analysis, visualization, and writing — Heavens Remember Editorial Board  
+**Author:** Alex K (ORCID 0009-0004-8829-4273) · Heavens Remember Editorial Board  
+**Author contributions (CRediT):** conceptualization, methodology, software, analysis, visualization, and writing — Alex K; source verification and editing — Heavens Remember Editorial Board  
 **About the board:** The Heavens Remember Editorial Board carries the astronomical, historical, philological, and biblical layers of the project. It is responsible for separating verifiable data from interpretation, for checking historical and etymological claims against their sources, and for recording substantive revisions. The computational layer runs through the project's own scripts over HYG Database 4.1; the semantic reconstruction proceeds within a declared biblical hermeneutic. Individual contributors are named as forms of public attribution are approved.  
 **Project:** Heavens Remember  
 **Document version:** 1.0  

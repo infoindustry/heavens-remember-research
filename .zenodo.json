@@ -9,6 +9,10 @@
   "version": "1.4",
   "creators": [
     {
+      "name": "Alex K",
+      "orcid": "0009-0004-8829-4273"
+    },
+    {
       "name": "Heavens Remember Editorial Board"
     }
   ],
@@ -37,5 +41,5 @@
       "scheme": "url"
     }
   ],
-  "notes": "Six bibliography entries (jobHebrew, jobCambridge, jobKeilDelitzsch, argoClassical, hungerSteele2019, verbuntVanGent2012) carry explicit notes that their editions and page locators still require verification against the sources. Attribution is collective; whether named individuals with ORCIDs replace that form is an open decision. See paper/manual-verification.md."
+  "notes": "Six bibliography entries (jobHebrew, jobCambridge, jobKeilDelitzsch, argoClassical, hungerSteele2019, verbuntVanGent2012) carry explicit notes that their editions and page locators still require verification against the sources. See paper/manual-verification.md."
 }
