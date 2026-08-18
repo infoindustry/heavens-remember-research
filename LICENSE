@@ -1,0 +1,21 @@
+Heavens Remember — method paper and research data
+Copyright (c) 2026 Heavens Remember Editorial Board
+
+This repository is mixed-licence. Each layer is governed by its own terms.
+
+  paper/            Creative Commons Attribution 4.0 International (CC BY 4.0)
+                    https://creativecommons.org/licenses/by/4.0/
+
+  data/             Creative Commons Attribution-ShareAlike 4.0 International
+  src/data/         (CC BY-SA 4.0)
+                    https://creativecommons.org/licenses/by-sa/4.0/
+                    ShareAlike is inherited from HYG Database 4.1 and from
+                    Stellarium constellation figure lines; it is not optional.
+
+  scripts/          MIT — see LICENSE-SCRIPTS
+
+Attribution name for all layers: Heavens Remember Editorial Board.
+
+Third-party material retains its own terms. See THIRD_PARTY_NOTICES.md.
+Bible and literary quotations are edition-specific and are not offered under
+any licence in this repository.

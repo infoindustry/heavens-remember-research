@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this paper or its data, please cite it as below."
+title: "Heavens Remember: Restoring the Celestial Sermon through Constellation Topography and the Great-Circle Method"
+abstract: "The Heavens Remember method paper, version 1.4, in Russian and English, together with the star data its results are computed from. A great-circle scan of the celestial sphere reduces 230,680,184 tested stellar triples to 18,427 unique constellation chains, of which 556 fall at or below 0.001 degrees of cross-track deviation."
+type: dataset
+version: "1.4"
+date-released: 2026-08-19
+authors:
+  - name: "Heavens Remember Editorial Board"
+    website: "https://www.heavensremember.top/en/methodology"
+url: "https://www.heavensremember.top/en/methodology/paper"
+license:
+  - CC-BY-4.0
+  - CC-BY-SA-4.0
+  - MIT
+keywords:
+  - celestial sphere
+  - constellations
+  - great circle
+  - spherical astronomy
+  - HYG database
+  - history of astronomy
+  - biblical studies
+  - reproducible research
+references:
+  - type: database
+    title: "HYG Stellar Database"
+    version: "4.1"
+    year: 2024
+    url: "https://codeberg.org/astronexus/hyg"
+    license: CC-BY-SA-4.0
+    authors:
+      - name: "HYG Database contributors"
+  - type: software
+    title: "Stellarium — Modern sky culture"
+    version: "26.1"
+    url: "https://github.com/Stellarium/stellarium"
+    license: CC-BY-SA-4.0
+    authors:
+      - name: "Stellarium contributors"
+# A DOI is added here after the first Zenodo deposit.

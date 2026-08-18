@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://heavens-remember.example/schema/atlas-manifest.schema.json",
+  "title": "Heavens Remember Atlas Manifest",
+  "type": "object",
+  "required": ["datasetId", "schemaVersion", "defaultLocale", "supportedLocales", "license", "attribution", "layers"],
+  "properties": {
+    "datasetId": { "type": "string", "const": "heavens-remember-atlas" },
+    "schemaVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "datasetVersion": { "type": "string" },
+    "defaultLocale": { "$ref": "#/$defs/locale" },
+    "supportedLocales": { "type": "array", "items": { "$ref": "#/$defs/locale" }, "uniqueItems": true },
+    "contentLocales": { "type": "array", "items": { "$ref": "#/$defs/locale" }, "uniqueItems": true },
+    "license": { "type": "string" },
+    "attribution": { "type": "string" },
+    "layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "license", "redistributable"],
+        "properties": {
+          "id": { "type": "string" },
+          "files": { "type": "array", "items": { "type": "string" } },
+          "source": { "type": "string", "format": "uri" },
+          "version": { "type": "string" },
+          "license": { "type": "string" },
+          "redistributable": { "type": "boolean" },
+          "containsThirdPartyExcerpts": { "type": "boolean" },
+          "separateAssetBundle": { "type": "boolean" },
+          "metadataOnlyByDefault": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "locale": { "type": "string", "pattern": "^[a-z]{2}(?:-[A-Z]{2})?$" }
+  },
+  "additionalProperties": false
+}

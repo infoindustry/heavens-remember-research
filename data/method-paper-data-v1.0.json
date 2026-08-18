@@ -1,0 +1,1154 @@
+{
+  "schemaVersion": "1.0.0",
+  "paperVersion": "1.0",
+  "project": {
+    "name": "Heavens Remember",
+    "url": "https://www.heavensremember.top",
+    "repository": "https://github.com/infoindustry/stars",
+    "gitCommit": "c664e318962cd7f51d098b6c0312a58af578c18e"
+  },
+  "provenance": {
+    "stellarCatalogue": "HYG Database 4.1",
+    "coordinateEpoch": "J2000",
+    "alignmentGeneratedAt": "2026-08-18T16:11:24.690Z",
+    "checksumsSha256": {
+      "hygdataV41Csv": "d9f69fd86bbf90a4e4d52b4c5c53eacfa6dfc0bfdef85bfd94f095e0bebe4ebd",
+      "researchAlignmentsJson": "06bf87c26d27e460ce5e4e3800cb1ed335aa6f2277570f828584cac705a212fa",
+      "researchAlignmentVariantsJson": "a084f1cde6ffa2a5b27a14cd3cd1df951a70631b1f95c6f3192956a51d5b6f84"
+    }
+  },
+  "methodParameters": {
+    "constellationCount": 56,
+    "starSelection": "reference-contour endpoints plus named stars",
+    "distinctConstellations": true,
+    "maximumCrossTrackDeviationDegrees": 0.3,
+    "minimumFirstToThroughDegrees": 5,
+    "maximumFirstToThroughDegrees": 175,
+    "minimumForwardDegrees": 2,
+    "maximumForwardDegrees": 120,
+    "maximumStoredVariantsPerChain": 12,
+    "nakedEyeMagnitudeLimit": 6
+  },
+  "constellationCorpus": {
+    "currentComputationalCount": 56,
+    "historicalStrataDraft": {
+      "independentPtolemaicFigures": 47,
+      "modernDescendantsOfArgoNavis": 3,
+      "specialCasesRequiringIndividualJustification": 6
+    },
+    "register": "docs/constellation-antiquity-register-v1.0.md",
+    "warning": "The computational corpus is not yet a source-verified homogeneous corpus of 56 ancient constellations."
+  },
+  "corpusCounts": {
+    "selectedStars": 629,
+    "testedPairs": 385264,
+    "testedTriples": 230680184,
+    "geometricHits": 375294,
+    "uniqueConstellationChains": 18427,
+    "returnedFindings": 18427,
+    "properNameDistributionAt001": {
+      "0": 43,
+      "1": 199,
+      "2": 220,
+      "3": 94
+    }
+  },
+  "preciseCorpusAtOrBelow001Degrees": {
+    "total": 556,
+    "precisionDistribution": [
+      {
+        "lowerExclusiveDegrees": 0,
+        "upperInclusiveDegrees": 0.00001,
+        "count": 3,
+        "cumulativeCount": 3
+      },
+      {
+        "lowerExclusiveDegrees": 0.00001,
+        "upperInclusiveDegrees": 0.00005,
+        "count": 20,
+        "cumulativeCount": 23
+      },
+      {
+        "lowerExclusiveDegrees": 0.00005,
+        "upperInclusiveDegrees": 0.0001,
+        "count": 31,
+        "cumulativeCount": 54
+      },
+      {
+        "lowerExclusiveDegrees": 0.0001,
+        "upperInclusiveDegrees": 0.00025,
+        "count": 85,
+        "cumulativeCount": 139
+      },
+      {
+        "lowerExclusiveDegrees": 0.00025,
+        "upperInclusiveDegrees": 0.0005,
+        "count": 142,
+        "cumulativeCount": 281
+      },
+      {
+        "lowerExclusiveDegrees": 0.0005,
+        "upperInclusiveDegrees": 0.001,
+        "count": 275,
+        "cumulativeCount": 556
+      }
+    ],
+    "properNameCountExact": {
+      "0": 43,
+      "1": 199,
+      "2": 220,
+      "3": 94
+    },
+    "unorderedHipTriples": {
+      "unique": 477,
+      "groupsByRetainedOrderedChainMultiplicity": {
+        "1": 417,
+        "2": 41,
+        "3": 19
+      },
+      "note": "Forward/reverse constellation chains are canonicalized; multiplicity records different retained placements of the same three HIP objects, not duplicate reverse directions."
+    },
+    "variantCountSummary": {
+      "minimum": 1,
+      "median": 30.5,
+      "mean": 47.588129,
+      "maximum": 373
+    },
+    "mostFrequentConstellations": [
+      {
+        "slug": "eridanus",
+        "ru": "Эридан",
+        "en": "Eridanus",
+        "count": 74
+      },
+      {
+        "slug": "pisces",
+        "ru": "Рыбы",
+        "en": "Fishes",
+        "count": 67
+      },
+      {
+        "slug": "gemini",
+        "ru": "Близнецы",
+        "en": "Twins",
+        "count": 62
+      },
+      {
+        "slug": "scorpius",
+        "ru": "Скорпион",
+        "en": "Scorpion",
+        "count": 58
+      },
+      {
+        "slug": "sagittarius",
+        "ru": "Стрелец",
+        "en": "Archer",
+        "count": 54
+      },
+      {
+        "slug": "andromeda",
+        "ru": "Андромеда",
+        "en": "Andromeda",
+        "count": 47
+      },
+      {
+        "slug": "orion",
+        "ru": "Орион",
+        "en": "Orion",
+        "count": 47
+      },
+      {
+        "slug": "hercules",
+        "ru": "Геркулес",
+        "en": "Hercules",
+        "count": 45
+      },
+      {
+        "slug": "pegasus",
+        "ru": "Пегас",
+        "en": "Pegasus",
+        "count": 45
+      },
+      {
+        "slug": "water-snake",
+        "ru": "Гидра",
+        "en": "Water Snake",
+        "count": 45
+      },
+      {
+        "slug": "centaur",
+        "ru": "Центавр",
+        "en": "Centaur",
+        "count": 44
+      },
+      {
+        "slug": "taurus",
+        "ru": "Телец",
+        "en": "Bull",
+        "count": 43
+      },
+      {
+        "slug": "great-bear",
+        "ru": "Большая Медведица",
+        "en": "Great Bear",
+        "count": 42
+      },
+      {
+        "slug": "serpent-bearer",
+        "ru": "Змееносец",
+        "en": "Serpent Bearer",
+        "count": 38
+      },
+      {
+        "slug": "greater-dog",
+        "ru": "Большой Пёс",
+        "en": "Greater Dog",
+        "count": 37
+      },
+      {
+        "slug": "cancer",
+        "ru": "Рак",
+        "en": "Crab",
+        "count": 34
+      },
+      {
+        "slug": "dragon",
+        "ru": "Дракон",
+        "en": "Dragon",
+        "count": 34
+      },
+      {
+        "slug": "virgo",
+        "ru": "Дева",
+        "en": "Maiden",
+        "count": 34
+      },
+      {
+        "slug": "whale",
+        "ru": "Кит",
+        "en": "Whale",
+        "count": 34
+      },
+      {
+        "slug": "wolf",
+        "ru": "Волк",
+        "en": "Wolf",
+        "count": 34
+      }
+    ]
+  },
+  "provisionalCaseStudies": [
+    {
+      "slug": "rasalgethi-deneb-lambda-andromedae",
+      "status": "draft",
+      "hips": [
+        84345,
+        102098,
+        116584
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "84345-102098-116584",
+      "inAutomaticCorpus": false,
+      "automaticMatches": []
+    },
+    {
+      "slug": "chi-herculis-kappa-cygni-algenib",
+      "status": "draft",
+      "hips": [
+        0,
+        0,
+        1067
+      ],
+      "unresolvedHipCount": 2,
+      "unorderedGroupKey": null,
+      "inAutomaticCorpus": false,
+      "automaticMatches": []
+    },
+    {
+      "slug": "gacrux-alderamin-nembus",
+      "status": "published",
+      "hips": [
+        61084,
+        105199,
+        7607
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "7607-61084-105199",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "61084-105199-7607",
+          "orderedChainKey": "southern-cross>cepheus>andromeda",
+          "deviationDegrees": 0.000228145,
+          "firstToSecondDegrees": 155.82,
+          "secondToTargetDegrees": 37.3,
+          "score": 86.468,
+          "variantCount": 5,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 61084,
+              "properName": "Gacrux",
+              "catalogDesignation": "Gam Cru",
+              "raHoursJ2000": 12.519429,
+              "decDegreesJ2000": -57.113212,
+              "visualMagnitude": 1.59,
+              "constellation": {
+                "slug": "southern-cross",
+                "ru": "Южный Крест",
+                "en": "Southern Cross",
+                "biblicalRu": "Крест Искупления",
+                "biblicalEn": "Cross of Redemption"
+              }
+            },
+            {
+              "hip": 105199,
+              "properName": "Alderamin",
+              "catalogDesignation": "5 Alp Cep",
+              "raHoursJ2000": 21.30963,
+              "decDegreesJ2000": 62.585573,
+              "visualMagnitude": 2.45,
+              "constellation": {
+                "slug": "cepheus",
+                "ru": "Цефей",
+                "en": "Cepheus",
+                "biblicalRu": "Воцарившийся Христос — Царь и Пастырь",
+                "biblicalEn": "Enthroned Christ — King and Shepherd"
+              }
+            },
+            {
+              "hip": 7607,
+              "properName": "Nembus",
+              "catalogDesignation": "51 And",
+              "raHoursJ2000": 1.633205,
+              "decDegreesJ2000": 48.628213,
+              "visualMagnitude": 3.59,
+              "constellation": {
+                "slug": "andromeda",
+                "ru": "Андромеда",
+                "en": "Andromeda",
+                "biblicalRu": "Церковь-Невеста, восхищённая к Жениху",
+                "biblicalEn": "The Church-Bride, raptured to the Bridegroom"
+              }
+            }
+          ]
+        },
+        {
+          "id": "61084-7607-105199",
+          "orderedChainKey": "southern-cross>andromeda>cepheus",
+          "deviationDegrees": 0.000411792,
+          "firstToSecondDegrees": 166.88,
+          "secondToTargetDegrees": 37.3,
+          "score": 86.263,
+          "variantCount": 6,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 61084,
+              "properName": "Gacrux",
+              "catalogDesignation": "Gam Cru",
+              "raHoursJ2000": 12.519429,
+              "decDegreesJ2000": -57.113212,
+              "visualMagnitude": 1.59,
+              "constellation": {
+                "slug": "southern-cross",
+                "ru": "Южный Крест",
+                "en": "Southern Cross",
+                "biblicalRu": "Крест Искупления",
+                "biblicalEn": "Cross of Redemption"
+              }
+            },
+            {
+              "hip": 7607,
+              "properName": "Nembus",
+              "catalogDesignation": "51 And",
+              "raHoursJ2000": 1.633205,
+              "decDegreesJ2000": 48.628213,
+              "visualMagnitude": 3.59,
+              "constellation": {
+                "slug": "andromeda",
+                "ru": "Андромеда",
+                "en": "Andromeda",
+                "biblicalRu": "Церковь-Невеста, восхищённая к Жениху",
+                "biblicalEn": "The Church-Bride, raptured to the Bridegroom"
+              }
+            },
+            {
+              "hip": 105199,
+              "properName": "Alderamin",
+              "catalogDesignation": "5 Alp Cep",
+              "raHoursJ2000": 21.30963,
+              "decDegreesJ2000": 62.585573,
+              "visualMagnitude": 2.45,
+              "constellation": {
+                "slug": "cepheus",
+                "ru": "Цефей",
+                "en": "Cepheus",
+                "biblicalRu": "Воцарившийся Христос — Царь и Пастырь",
+                "biblicalEn": "Enthroned Christ — King and Shepherd"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lesath-sheratan-jishui",
+      "status": "published",
+      "hips": [
+        85696,
+        8903,
+        37265
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "8903-37265-85696",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "85696-8903-37265",
+          "orderedChainKey": "scorpius>aries>gemini",
+          "deviationDegrees": 0.000071338,
+          "firstToSecondDegrees": 130.69,
+          "secondToTargetDegrees": 75.31,
+          "score": 87.875,
+          "variantCount": 29,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 85696,
+              "properName": "Lesath",
+              "catalogDesignation": "34 Ups Sco",
+              "raHoursJ2000": 17.512732,
+              "decDegreesJ2000": -37.295811,
+              "visualMagnitude": 2.7,
+              "constellation": {
+                "slug": "scorpius",
+                "ru": "Скорпион",
+                "en": "Scorpion",
+                "biblicalRu": "Жало греха",
+                "biblicalEn": "Sting of Sin"
+              }
+            },
+            {
+              "hip": 8903,
+              "properName": "Sheratan",
+              "catalogDesignation": "6 Bet Ari",
+              "raHoursJ2000": 1.910668,
+              "decDegreesJ2000": 20.808035,
+              "visualMagnitude": 2.64,
+              "constellation": {
+                "slug": "aries",
+                "ru": "Овен",
+                "en": "Ram",
+                "biblicalRu": "Божий Агнец, освобождающий Свой народ",
+                "biblicalEn": "God's Lamb, liberating His people"
+              }
+            },
+            {
+              "hip": 37265,
+              "properName": "Jishui",
+              "catalogDesignation": "71 Omi Gem",
+              "raHoursJ2000": 7.65276,
+              "decDegreesJ2000": 34.584346,
+              "visualMagnitude": 4.89,
+              "constellation": {
+                "slug": "gemini",
+                "ru": "Близнецы",
+                "en": "Twins",
+                "biblicalRu": "Страдающий Спаситель и воцарившийся Судия",
+                "biblicalEn": "Suffering Savior and enthroned Judge"
+              }
+            }
+          ]
+        },
+        {
+          "id": "85696-37265-8903",
+          "orderedChainKey": "scorpius>gemini>aries",
+          "deviationDegrees": 0.000123361,
+          "firstToSecondDegrees": 153.99,
+          "secondToTargetDegrees": 75.31,
+          "score": 86.99,
+          "variantCount": 32,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 85696,
+              "properName": "Lesath",
+              "catalogDesignation": "34 Ups Sco",
+              "raHoursJ2000": 17.512732,
+              "decDegreesJ2000": -37.295811,
+              "visualMagnitude": 2.7,
+              "constellation": {
+                "slug": "scorpius",
+                "ru": "Скорпион",
+                "en": "Scorpion",
+                "biblicalRu": "Жало греха",
+                "biblicalEn": "Sting of Sin"
+              }
+            },
+            {
+              "hip": 37265,
+              "properName": "Jishui",
+              "catalogDesignation": "71 Omi Gem",
+              "raHoursJ2000": 7.65276,
+              "decDegreesJ2000": 34.584346,
+              "visualMagnitude": 4.89,
+              "constellation": {
+                "slug": "gemini",
+                "ru": "Близнецы",
+                "en": "Twins",
+                "biblicalRu": "Страдающий Спаситель и воцарившийся Судия",
+                "biblicalEn": "Suffering Savior and enthroned Judge"
+              }
+            },
+            {
+              "hip": 8903,
+              "properName": "Sheratan",
+              "catalogDesignation": "6 Bet Ari",
+              "raHoursJ2000": 1.910668,
+              "decDegreesJ2000": 20.808035,
+              "visualMagnitude": 2.64,
+              "constellation": {
+                "slug": "aries",
+                "ru": "Овен",
+                "en": "Ram",
+                "biblicalRu": "Божий Агнец, освобождающий Свой народ",
+                "biblicalEn": "God's Lamb, liberating His people"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "la-superba-albireo-fomalhaut",
+      "status": "published",
+      "hips": [
+        62223,
+        95947,
+        113368
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "62223-95947-113368",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "62223-95947-113368",
+          "orderedChainKey": "hunting-dogs>swan>southern-fish",
+          "deviationDegrees": 0.000098877,
+          "firstToSecondDegrees": 77.78,
+          "secondToTargetDegrees": 75.89,
+          "score": 92.316,
+          "variantCount": 4,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 62223,
+              "properName": "La Superba",
+              "catalogDesignation": "HIP 62223",
+              "raHoursJ2000": 12.752174,
+              "decDegreesJ2000": 45.440256,
+              "visualMagnitude": 5.42,
+              "constellation": {
+                "slug": "hunting-dogs",
+                "ru": "Гончие Псы",
+                "en": "Hunting Dogs",
+                "biblicalRu": "Жезл Пастыря",
+                "biblicalEn": "Shepherd's Rod"
+              }
+            },
+            {
+              "hip": 95947,
+              "properName": "Albireo",
+              "catalogDesignation": "6 Bet-1 Cyg",
+              "raHoursJ2000": 19.512023,
+              "decDegreesJ2000": 27.959681,
+              "visualMagnitude": 3.05,
+              "constellation": {
+                "slug": "swan",
+                "ru": "Лебедь",
+                "en": "Swan",
+                "biblicalRu": "Спасительный Крест",
+                "biblicalEn": "Saving Cross"
+              }
+            },
+            {
+              "hip": 113368,
+              "properName": "Fomalhaut",
+              "catalogDesignation": "24 Alp PsA",
+              "raHoursJ2000": 22.960838,
+              "decDegreesJ2000": -29.622236,
+              "visualMagnitude": 1.17,
+              "constellation": {
+                "slug": "southern-fish",
+                "ru": "Южная Рыба",
+                "en": "Southern Fish",
+                "biblicalRu": "Напоенный Божий народ",
+                "biblicalEn": "Refreshed people of God"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "guniibuu-sadalmelik-algenib",
+      "status": "published",
+      "hips": [
+        84405,
+        109074,
+        1067
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "1067-84405-109074",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "84405-109074-1067",
+          "orderedChainKey": "serpent-bearer>aquarius>pegasus",
+          "deviationDegrees": 0.000270083,
+          "firstToSecondDegrees": 74.35,
+          "secondToTargetDegrees": 35.1,
+          "score": 86.876,
+          "variantCount": 2,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 84405,
+              "properName": "Guniibuu",
+              "catalogDesignation": "36 Oph",
+              "raHoursJ2000": 17.255836,
+              "decDegreesJ2000": -26.602829,
+              "visualMagnitude": 4.33,
+              "constellation": {
+                "slug": "serpent-bearer",
+                "ru": "Змееносец",
+                "en": "Serpent Bearer",
+                "biblicalRu": "Пастырь-Победитель",
+                "biblicalEn": "Shepherd-Victor"
+              }
+            },
+            {
+              "hip": 109074,
+              "properName": "Sadalmelik",
+              "catalogDesignation": "34 Alp Aqr",
+              "raHoursJ2000": 22.096399,
+              "decDegreesJ2000": -0.319851,
+              "visualMagnitude": 2.95,
+              "constellation": {
+                "slug": "aquarius",
+                "ru": "Водолей",
+                "en": "Water Bearer",
+                "biblicalRu": "Дающий воду жизни",
+                "biblicalEn": "Giver of the water of life"
+              }
+            },
+            {
+              "hip": 1067,
+              "properName": "Algenib",
+              "catalogDesignation": "88 Gam Peg",
+              "raHoursJ2000": 0.220598,
+              "decDegreesJ2000": 15.183596,
+              "visualMagnitude": 2.83,
+              "constellation": {
+                "slug": "pegasus",
+                "ru": "Пегас",
+                "en": "Pegasus",
+                "biblicalRu": "Благословение Авраама",
+                "biblicalEn": "Blessing of Abraham"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "alhena-zubenelgenubi-albali",
+      "status": "published",
+      "hips": [
+        31681,
+        72622,
+        102618
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "31681-72622-102618",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "31681-72622-102618",
+          "orderedChainKey": "gemini>libra>aquarius",
+          "deviationDegrees": 0.000167752,
+          "firstToSecondDegrees": 125.74,
+          "secondToTargetDegrees": 86.63,
+          "score": 90.34,
+          "variantCount": 33,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 31681,
+              "properName": "Alhena",
+              "catalogDesignation": "24 Gam Gem",
+              "raHoursJ2000": 6.628528,
+              "decDegreesJ2000": 16.399252,
+              "visualMagnitude": 1.93,
+              "constellation": {
+                "slug": "gemini",
+                "ru": "Близнецы",
+                "en": "Twins",
+                "biblicalRu": "Страдающий Спаситель и воцарившийся Судия",
+                "biblicalEn": "Suffering Savior and enthroned Judge"
+              }
+            },
+            {
+              "hip": 72622,
+              "properName": "Zubenelgenubi",
+              "catalogDesignation": "9 Alp-2 Lib",
+              "raHoursJ2000": 14.847977,
+              "decDegreesJ2000": -16.041778,
+              "visualMagnitude": 2.75,
+              "constellation": {
+                "slug": "libra",
+                "ru": "Весы",
+                "en": "Scales",
+                "biblicalRu": "Нарушенный порядок",
+                "biblicalEn": "Broken order"
+              }
+            },
+            {
+              "hip": 102618,
+              "properName": "Albali",
+              "catalogDesignation": "2 Eps Aqr",
+              "raHoursJ2000": 20.794598,
+              "decDegreesJ2000": -9.495776,
+              "visualMagnitude": 3.78,
+              "constellation": {
+                "slug": "aquarius",
+                "ru": "Водолей",
+                "en": "Water Bearer",
+                "biblicalRu": "Дающий воду жизни",
+                "biblicalEn": "Giver of the water of life"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cih-sham-ginan",
+      "status": "published",
+      "hips": [
+        4427,
+        96757,
+        60260
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "4427-60260-96757",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "4427-96757-60260",
+          "orderedChainKey": "cassiopeia>arrow>southern-cross",
+          "deviationDegrees": 0.00011689,
+          "firstToSecondDegrees": 69.07,
+          "secondToTargetDegrees": 115.28,
+          "score": 88.17,
+          "variantCount": 27,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 4427,
+              "properName": "Cih",
+              "catalogDesignation": "27 Gam Cas",
+              "raHoursJ2000": 0.945143,
+              "decDegreesJ2000": 60.71674,
+              "visualMagnitude": 2.15,
+              "constellation": {
+                "slug": "cassiopeia",
+                "ru": "Кассиопея",
+                "en": "Cassiopeia",
+                "biblicalRu": "Церковь — Жена Агнца",
+                "biblicalEn": "Church — Wife of the Lamb"
+              }
+            },
+            {
+              "hip": 96757,
+              "properName": "Sham",
+              "catalogDesignation": "5 Alp Sge",
+              "raHoursJ2000": 19.668275,
+              "decDegreesJ2000": 18.01389,
+              "visualMagnitude": 4.39,
+              "constellation": {
+                "slug": "arrow",
+                "ru": "Стрела",
+                "en": "Arrow",
+                "biblicalRu": "Божья стрела суда",
+                "biblicalEn": "God's arrow of judgment"
+              }
+            },
+            {
+              "hip": 60260,
+              "properName": "Ginan",
+              "catalogDesignation": "Eps Cru",
+              "raHoursJ2000": 12.356031,
+              "decDegreesJ2000": -60.401147,
+              "visualMagnitude": 3.59,
+              "constellation": {
+                "slug": "southern-cross",
+                "ru": "Южный Крест",
+                "en": "Southern Cross",
+                "biblicalRu": "Крест Искупления",
+                "biblicalEn": "Cross of Redemption"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sadr-gienah-theemin",
+      "status": "published",
+      "hips": [
+        100453,
+        59803,
+        21393
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "21393-59803-100453",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "100453-59803-21393",
+          "orderedChainKey": "swan>crow>eridanus",
+          "deviationDegrees": 0.000241774,
+          "firstToSecondDegrees": 125.18,
+          "secondToTargetDegrees": 101.22,
+          "score": 91.395,
+          "variantCount": 25,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 100453,
+              "properName": "Sadr",
+              "catalogDesignation": "37 Gam Cyg",
+              "raHoursJ2000": 20.370473,
+              "decDegreesJ2000": 40.256679,
+              "visualMagnitude": 2.23,
+              "constellation": {
+                "slug": "swan",
+                "ru": "Лебедь",
+                "en": "Swan",
+                "biblicalRu": "Спасительный Крест",
+                "biblicalEn": "Saving Cross"
+              }
+            },
+            {
+              "hip": 59803,
+              "properName": "Gienah",
+              "catalogDesignation": "4 Gam Crv",
+              "raHoursJ2000": 12.263437,
+              "decDegreesJ2000": -17.541929,
+              "visualMagnitude": 2.58,
+              "constellation": {
+                "slug": "crow",
+                "ru": "Ворон",
+                "en": "Crow",
+                "biblicalRu": "Окончательный суд",
+                "biblicalEn": "Final Judgment"
+              }
+            },
+            {
+              "hip": 21393,
+              "properName": "Theemin",
+              "catalogDesignation": "52 Ups-2 Eri",
+              "raHoursJ2000": 4.592512,
+              "decDegreesJ2000": -30.562341,
+              "visualMagnitude": 3.81,
+              "constellation": {
+                "slug": "eridanus",
+                "ru": "Эридан",
+                "en": "Eridanus",
+                "biblicalRu": "Огненная река Божьего суда",
+                "biblicalEn": "Fiery river of God's judgment"
+              }
+            }
+          ]
+        },
+        {
+          "id": "100453-21393-59803",
+          "orderedChainKey": "swan>eridanus>crow",
+          "deviationDegrees": 0.000272903,
+          "firstToSecondDegrees": 133.6,
+          "secondToTargetDegrees": 101.22,
+          "score": 90.877,
+          "variantCount": 23,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 100453,
+              "properName": "Sadr",
+              "catalogDesignation": "37 Gam Cyg",
+              "raHoursJ2000": 20.370473,
+              "decDegreesJ2000": 40.256679,
+              "visualMagnitude": 2.23,
+              "constellation": {
+                "slug": "swan",
+                "ru": "Лебедь",
+                "en": "Swan",
+                "biblicalRu": "Спасительный Крест",
+                "biblicalEn": "Saving Cross"
+              }
+            },
+            {
+              "hip": 21393,
+              "properName": "Theemin",
+              "catalogDesignation": "52 Ups-2 Eri",
+              "raHoursJ2000": 4.592512,
+              "decDegreesJ2000": -30.562341,
+              "visualMagnitude": 3.81,
+              "constellation": {
+                "slug": "eridanus",
+                "ru": "Эридан",
+                "en": "Eridanus",
+                "biblicalRu": "Огненная река Божьего суда",
+                "biblicalEn": "Fiery river of God's judgment"
+              }
+            },
+            {
+              "hip": 59803,
+              "properName": "Gienah",
+              "catalogDesignation": "4 Gam Crv",
+              "raHoursJ2000": 12.263437,
+              "decDegreesJ2000": -17.541929,
+              "visualMagnitude": 2.58,
+              "constellation": {
+                "slug": "crow",
+                "ru": "Ворон",
+                "en": "Crow",
+                "biblicalRu": "Окончательный суд",
+                "biblicalEn": "Final Judgment"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gienah-taygeta-hamal",
+      "status": "published",
+      "hips": [
+        59803,
+        17531,
+        9884
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "9884-17531-59803",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "59803-17531-9884",
+          "orderedChainKey": "crow>taurus>aries",
+          "deviationDegrees": 0.000270948,
+          "firstToSecondDegrees": 130.92,
+          "secondToTargetDegrees": 22.39,
+          "score": 84.804,
+          "variantCount": 27,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 59803,
+              "properName": "Gienah",
+              "catalogDesignation": "4 Gam Crv",
+              "raHoursJ2000": 12.263437,
+              "decDegreesJ2000": -17.541929,
+              "visualMagnitude": 2.58,
+              "constellation": {
+                "slug": "crow",
+                "ru": "Ворон",
+                "en": "Crow",
+                "biblicalRu": "Окончательный суд",
+                "biblicalEn": "Final Judgment"
+              }
+            },
+            {
+              "hip": 17531,
+              "properName": "Taygeta",
+              "catalogDesignation": "19 Tau",
+              "raHoursJ2000": 3.75347,
+              "decDegreesJ2000": 24.467278,
+              "visualMagnitude": 4.3,
+              "constellation": {
+                "slug": "taurus",
+                "ru": "Телец",
+                "en": "Bull",
+                "biblicalRu": "Грядущий Судия",
+                "biblicalEn": "Coming Judge"
+              }
+            },
+            {
+              "hip": 9884,
+              "properName": "Hamal",
+              "catalogDesignation": "13 Alp Ari",
+              "raHoursJ2000": 2.119555,
+              "decDegreesJ2000": 23.462423,
+              "visualMagnitude": 2.01,
+              "constellation": {
+                "slug": "aries",
+                "ru": "Овен",
+                "en": "Ram",
+                "biblicalRu": "Божий Агнец, освобождающий Свой народ",
+                "biblicalEn": "God's Lamb, liberating His people"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "acamar-mebsuta-xuange",
+      "status": "published",
+      "hips": [
+        13847,
+        32246,
+        69732
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "13847-32246-69732",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "13847-32246-69732",
+          "orderedChainKey": "eridanus>gemini>bo-tes",
+          "deviationDegrees": 0.00000943,
+          "firstToSecondDegrees": 83.85,
+          "secondToTargetDegrees": 86.59,
+          "score": 91.896,
+          "variantCount": 362,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 13847,
+              "properName": "Acamar",
+              "catalogDesignation": "The-1 Eri",
+              "raHoursJ2000": 2.971023,
+              "decDegreesJ2000": -40.304672,
+              "visualMagnitude": 2.88,
+              "constellation": {
+                "slug": "eridanus",
+                "ru": "Эридан",
+                "en": "Eridanus",
+                "biblicalRu": "Огненная река Божьего суда",
+                "biblicalEn": "Fiery river of God's judgment"
+              }
+            },
+            {
+              "hip": 32246,
+              "properName": "Mebsuta",
+              "catalogDesignation": "27 Eps Gem",
+              "raHoursJ2000": 6.732202,
+              "decDegreesJ2000": 25.131124,
+              "visualMagnitude": 3.06,
+              "constellation": {
+                "slug": "gemini",
+                "ru": "Близнецы",
+                "en": "Twins",
+                "biblicalRu": "Страдающий Спаситель и воцарившийся Судия",
+                "biblicalEn": "Suffering Savior and enthroned Judge"
+              }
+            },
+            {
+              "hip": 69732,
+              "properName": "Xuange",
+              "catalogDesignation": "19 Lam Boo",
+              "raHoursJ2000": 14.273074,
+              "decDegreesJ2000": 46.088305,
+              "visualMagnitude": 4.18,
+              "constellation": {
+                "slug": "bo-tes",
+                "ru": "Волопас",
+                "en": "Boötes",
+                "biblicalRu": "Пастух и Страж Божьего Стада",
+                "biblicalEn": "Shepherd and Guardian of God's Flock"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "markab-hassaleh-ukdah",
+      "status": "published",
+      "hips": [
+        113963,
+        23015,
+        47431
+      ],
+      "unresolvedHipCount": 0,
+      "unorderedGroupKey": "23015-47431-113963",
+      "inAutomaticCorpus": true,
+      "automaticMatches": [
+        {
+          "id": "113963-23015-47431",
+          "orderedChainKey": "pegasus>charioteer>water-snake",
+          "deviationDegrees": 0.000379425,
+          "firstToSecondDegrees": 80.16,
+          "secondToTargetDegrees": 74.6,
+          "score": 92.227,
+          "variantCount": 77,
+          "properNameCount": 3,
+          "stars": [
+            {
+              "hip": 113963,
+              "properName": "Markab",
+              "catalogDesignation": "54 Alp Peg",
+              "raHoursJ2000": 23.079348,
+              "decDegreesJ2000": 15.205264,
+              "visualMagnitude": 2.49,
+              "constellation": {
+                "slug": "pegasus",
+                "ru": "Пегас",
+                "en": "Pegasus",
+                "biblicalRu": "Благословение Авраама",
+                "biblicalEn": "Blessing of Abraham"
+              }
+            },
+            {
+              "hip": 23015,
+              "properName": "Hassaleh",
+              "catalogDesignation": "3 Iot Aur",
+              "raHoursJ2000": 4.949894,
+              "decDegreesJ2000": 33.16609,
+              "visualMagnitude": 2.69,
+              "constellation": {
+                "slug": "charioteer",
+                "ru": "Возничий",
+                "en": "Charioteer",
+                "biblicalRu": "Господь Творения — Добрый Пастырь",
+                "biblicalEn": "Lord of Creation — Good Shepherd"
+              }
+            },
+            {
+              "hip": 47431,
+              "properName": "Ukdah",
+              "catalogDesignation": "35 Iot Hya",
+              "raHoursJ2000": 9.664267,
+              "decDegreesJ2000": -1.14281,
+              "visualMagnitude": 3.9,
+              "constellation": {
+                "slug": "water-snake",
+                "ru": "Гидра",
+                "en": "Water Snake",
+                "biblicalRu": "Сатана под судом",
+                "biblicalEn": "Satan under judgment"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "interpretationBoundary": {
+    "astronomy": "Coordinates, magnitudes, catalogue identifiers, and computed spherical geometry.",
+    "historical": "Requires source-by-source verification; a HYG proper-name field is not etymological evidence.",
+    "theological": "Editorial hypothesis supplied by Heavens Remember; not an astronomical inference."
+  }
+}
