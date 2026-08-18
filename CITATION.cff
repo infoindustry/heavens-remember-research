@@ -5,6 +5,7 @@ abstract: "The Heavens Remember method paper, version 1.4, in Russian and Englis
 type: dataset
 version: "1.4"
 date-released: 2026-08-19
+doi: "10.5281/zenodo.22003724"
 authors:
   - name: "Heavens Remember Editorial Board"
     website: "https://www.heavensremember.top/en/methodology"
@@ -38,4 +39,5 @@ references:
     license: CC-BY-SA-4.0
     authors:
       - name: "Stellarium contributors"
-# A DOI is added here after the first Zenodo deposit.
+# Concept DOI above always resolves to the latest version.
+# Version DOI for v1.4: 10.5281/zenodo.22003725

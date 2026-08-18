@@ -9,7 +9,7 @@
 **Date of first publication:** 19 August 2026  
 **Project URL:** https://www.heavensremember.top  
 **Repository for paper and data:** https://github.com/infoindustry/heavens-remember-research  
-**DOI:** not assigned — the paper is published on the project website  
+**DOI:** https://doi.org/10.5281/zenodo.22003724 — all versions; version 1.4: 10.5281/zenodo.22003725  
 **Paper copyright and licence:** © Heavens Remember. Paper text: CC BY 4.0. Reproduction scripts: MIT. Data derived from HYG Database 4.1: CC BY-SA 4.0 with source attribution retained.
 
 > Document status. This is a methods and research paper, not a claim that a theological proposition or an astronomical interpretation has been proved. Numerical results reproduce the project at commit `c664e318962cd7f51d098b6c0312a58af578c18e`. Historical, linguistic, and theological layers are not inferred automatically from geometry.

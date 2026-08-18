@@ -9,7 +9,7 @@
 **Date of first publication:** 19 August 2026  
 **Project URL:** https://www.heavensremember.top  
 **Repository for paper and data:** https://github.com/infoindustry/heavens-remember-research  
-**DOI:** not assigned — the paper is published on the project website  
+**DOI:** https://doi.org/10.5281/zenodo.22003724 — all versions; version 1.4: 10.5281/zenodo.22003725  
 **Copyright and licence:** © Heavens Remember. Paper text: CC BY 4.0. Reproduction scripts: MIT. Data derived from HYG Database 4.1: CC BY-SA 4.0 with source attribution retained.
 
 > **Foundation of the project.** "The heavens declare the glory of God" (Ps. 18/19). Heavens Remember studies the sky as a surviving map of that declaration and restores its structure through the geometry of the celestial sphere, ancient sky figures, historical star names, and the biblical narrative. The numerical results given in this document preserve the reproducible baseline of the first complete computational run; version 1.4 defines the updated semantic architecture of the corpus and the rules for the next recomputation.

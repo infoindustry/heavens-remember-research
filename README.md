@@ -1,5 +1,7 @@
 # Heavens Remember — method paper and research data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22003724.svg)](https://doi.org/10.5281/zenodo.22003724)
+
 This repository holds the citable record of the Heavens Remember method paper and the star data the paper's numbers are computed from. It is the archival companion to the project website at <https://www.heavensremember.top>.
 
 The project maps geometric relations between stars and sky figures on the celestial sphere, tests which of those figures are historically attested, and reconstructs their place in the biblical narrative. The method is a great-circle scan: for every admissible directed pair of stars, the plane of a great circle is constructed, and a third star is tested by its cross-track angular deviation and its forward position along the directed arc.
@@ -79,4 +81,8 @@ The data layer is CC BY-SA because it derives from HYG Database 4.1 and Stellari
 
 ## Citing
 
-See `CITATION.cff`, or cite the version DOI printed on the Zenodo record for the release you used.
+Cite the concept DOI to always point at the latest version:
+
+> Heavens Remember Editorial Board (2026). *Heavens Remember: Restoring the Celestial Sermon through Constellation Topography and the Great-Circle Method*. Zenodo. https://doi.org/10.5281/zenodo.22003724
+
+To pin the exact release you used, cite its version DOI instead — `10.5281/zenodo.22003725` for v1.4. Machine-readable metadata is in `CITATION.cff`.
