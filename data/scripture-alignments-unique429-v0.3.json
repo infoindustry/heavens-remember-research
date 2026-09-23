@@ -16,13 +16,14 @@
       "weak": "Only two elements form a clear biblical relation; the third remains loose.",
       "no_match": "No sufficiently specific three-way biblical relation was identified."
     },
-    "caution": "Because constellation meanings are already theological interpretations, this file measures internal biblical coherence, not independent validation of the celestial hypothesis."
+    "caution": "Because constellation meanings are already theological interpretations, this file measures internal biblical coherence, not independent validation of the celestial hypothesis. In addition, automated weak/no_match labels from the motif-ontology pass are provisional: narrative passages can bind three images even when their abstract tags do not overlap. Negative labels require narrative re-review before use.",
+    "negativeStatusPolicy": "Do not treat weak or no_match as final until the triple has been checked for a single biblical narrative/chapter that contains analogous events or images in sequence."
   },
   "summary": {
-    "strong": 134,
+    "strong": 135,
     "plausible": 250,
     "weak": 44,
-    "no_match": 1,
+    "no_match": 0,
     "total": 429,
     "properNameDistribution": {
       "0": 34,
@@ -17283,18 +17284,47 @@
         }
       ],
       "scriptureEvaluation": {
-        "status": "no_match",
-        "motifId": "no-coherent-three-way-match",
-        "motif": "No sufficiently specific biblical passage or motif was found that naturally binds all three Heavens Remember semantic elements.",
-        "primaryPassage": null,
-        "supportingPassages": [],
+        "status": "strong",
+        "motifId": "revelation12-fall-faithfulness-rod",
+        "motif": "The enemy is cast down; the faithful overcome unto death; the Messiah shepherds/rules the nations with the rod.",
+        "primaryPassage": "Revelation 12:5-11",
+        "supportingPassages": [
+          "Luke 10:18",
+          "Revelation 2:10",
+          "Psalm 23:4"
+        ],
+        "elementMapping": [
+          {
+            "constellation": "eagle",
+            "meaning": "Cast down like lightning",
+            "passage": "Revelation 12:9",
+            "support": "Luke 10:18",
+            "strength": 5
+          },
+          {
+            "constellation": "northern-crown",
+            "meaning": "Crown of life, promised by the Victor",
+            "passage": "Revelation 12:11",
+            "support": "Revelation 2:10",
+            "strength": 4,
+            "note": "Revelation 12:11 supplies faithfulness unto death; the explicit phrase 'crown of life' is in Revelation 2:10."
+          },
+          {
+            "constellation": "hunting-dogs",
+            "meaning": "Shepherd's Rod",
+            "passage": "Revelation 12:5",
+            "support": "Psalm 23:4",
+            "strength": 5
+          }
+        ],
         "scores": {
-          "elementCoverage": 1,
-          "narrativeCoherence": 1,
-          "biblicalSpecificity": 0,
-          "forcedness": 5
+          "elementCoverage": 5,
+          "narrativeCoherence": 5,
+          "biblicalSpecificity": 5,
+          "sequenceCoherence": 4,
+          "forcedness": 1
         },
-        "reviewState": "semantic-second-pass"
+        "reviewState": "manually-corrected-after-narrative-review"
       },
       "starNameLayer": {
         "properNameCount": 1,
